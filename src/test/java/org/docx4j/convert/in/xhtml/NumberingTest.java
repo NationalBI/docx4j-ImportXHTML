@@ -191,8 +191,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.IGNORE_CLASS);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(0);
     	
@@ -229,8 +229,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.IGNORE_CLASS);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(0);
     	
@@ -267,7 +267,7 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.IGNORE_CLASS);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
 //    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
 	
     	P p = (P)results.get(0);
@@ -300,8 +300,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.IGNORE_CLASS);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(0);
     	
@@ -339,8 +339,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.IGNORE_CLASS);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(1);
     	
@@ -375,8 +375,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.IGNORE_CLASS);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(1);
     	
@@ -419,8 +419,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.CLASS_PLUS_OTHER);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(1);
     	
@@ -458,8 +458,8 @@ public class NumberingTest {
     	List<Object> results = convert( xhtml, FormattingOption.CLASS_PLUS_OTHER);
     	
     	wordMLPackage.getMainDocumentPart().getContent().addAll(results);
-    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getJaxbElement(), true, true));
-//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getJaxbElement(), true, true));
+    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getContents(), true, true));
+//    	System.out.println(XmlUtils.marshaltoString(wordMLPackage.getMainDocumentPart().getNumberingDefinitionsPart().getContents(), true, true));
 	
     	P p = (P)results.get(1);
     	
