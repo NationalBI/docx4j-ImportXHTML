@@ -58,6 +58,12 @@ public class XHTMLImageHandlerDefault implements XHTMLImageHandler {
 			P p, Element e, Long cx, Long cy) {
 		
 		BinaryPartAbstractImage imagePart = null;
+		if (cx != null && cx.longValue() < 0) {
+			cx = new Long(0);
+		}
+		if (cy != null && cy.longValue() < 0) {
+			cy = new Long(0);
+		}
 		
 		boolean isError = false;
 		try {
